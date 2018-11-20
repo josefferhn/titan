@@ -1,0 +1,249 @@
+body{
+	font-family: Segoe UI, sans-serif;
+	font-size: 14px;
+	color: #666;
+	margin: 0;
+}
+
+header{
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+}
+header h1{
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+#sec-hero{
+	background-image: url(../img/finance_header_bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 130px 0;
+	color: #fff;
+}
+
+#sec-hero h4,
+#sec-hero h1{
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+#sec-hero h4{
+	font-size: 16px;
+}
+#sec-hero h1{
+	font-size: 50px;
+	margin-top: 40px;
+	letter-spacing: 20px;
+	margin-bottom: 30px;
+}
+
+.btn-transparente{
+	background-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 7px 40px;
+	letter-spacing: 2px;
+}
+.btn-transparente:hover{
+	background-color: #fff;
+}
+
+
+#sec-quote{
+	background-color: #000;
+	text-transform: uppercase;
+	color: #aaa;
+	padding: 40px 0;
+}
+#sec-quote h3{
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+#sec-quote h5{
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+#sec-quote .btn-light{
+	background-color: #aaa;	
+	color: #111;
+	font-size: 12px;
+	padding: 8px 30px;
+	letter-spacing: 2px;
+	border: 0;
+}
+#sec-quote .btn-light:hover{
+	background-color: #fff;	
+}
+
+.sec-espacio{
+	padding: 100px 0;
+}
+
+#sec-title h3{
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 10px;
+	text-align: center;
+	color: #111;
+	font-weight: 600;
+}
+#sec-title p{
+	text-align: center;
+}
+
+
+
+#sec-counter{
+	background-image: url(../img/finance_funfact_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	color: #fff;
+	text-align: center;
+}
+#sec-counter h3{
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 25px;
+}
+#sec-counter p{
+	font-style: italic; 	
+}
+#sec-counter .icon{
+	border: 1px solid #fff;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	border-radius: 100%;
+	
+}
+
+
+#sec-practice{
+	border-bottom: 1px solid #eee;
+}
+
+#sec-practice .bg-image{
+	background-image: url(../img/section-practice-areas.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-right: 1px solid #eee;
+}
+
+
+.titulo{
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #111;
+	margin-bottom: 40px;
+}
+
+
+#sec-practice .sec-espacio{
+	padding: 80px 30px;
+}
+
+#sec-practice h3{
+	font-size: 14px;
+	color: #111;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+#sec-practice .icon{
+	border: 1px solid #111;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+.padre{
+	position: relative;
+}
+.hijo{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	bottom: 100%;
+}
+.padre:hover .hijo{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+
+.hijo h3{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.hijo h4{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #aaa;
+}
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.60);
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+.padre:hover .bg-overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.case2{
+	position: relative;
+}
+.case2 .bg-overlay{
+	opacity: 1;
+}
+.case2 .case-info{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: #000;
+	text-align: center;
+	padding: 10px 0; 
+	color: #fff;
+}
+.case2:hover .case-info{
+	bottom: 0;
+}
+.case-info h3{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.case-info h4{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #aaa;
+}
+
+
+
+
+
+
+
+
